@@ -4,8 +4,7 @@
 
 ## 1. [문자열을 사용한 작업]
   * Tokenization
-  * Regular expression
-  * Pre-processing
+  * Text Normalization
 
 [문자열을 사용한 작업]: https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/1.%20Mastering%20Natural%20Language%20Processing%20with%20Python/1.%20NLPwithString
 
