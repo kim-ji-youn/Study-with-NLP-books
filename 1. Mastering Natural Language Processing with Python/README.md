@@ -3,7 +3,7 @@
 * **출판사**: 에이콘
 
 ## 1. [문자열을 사용한 작업]
-[문자열을 사용한 작엽]:https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/1.%20Mastering%20Natural%20Language%20Processing%20with%20Python/1.%20NLPwithString
+[문자열을 사용한 작엽]: https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/1.%20Mastering%20Natural%20Language%20Processing%20with%20Python/1.%20NLPwithString
   * Tokenization
   * Regular expression
   * Pre-processing
