@@ -16,4 +16,4 @@ Study with hot NLP books
 * **출판사** 한빛미디어
 
 
-[김기현의 자연어 처리 딥려닝 캠프]:https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/2.%20NLPDeepLearningCamp
+[김기현의 자연어 처리 딥려닝 캠프] : https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/2.%20NLPDeepLearningCamp
