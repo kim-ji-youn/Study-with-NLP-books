@@ -12,7 +12,10 @@
   
 ## 2. 기초 수학
 ## 3. Hello 파이토치
-## 4. 전처리
+## 4. [전처리]
+
+[전처리]: https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/2.%20NLPDeepLearningCamp/4.%20Preprocessing
+
 ## 5. 유사성과 모호성
 ## 6. 단어 임베딩
 ## 7. 시퀀스 모델링
