@@ -49,6 +49,9 @@ any_string.upper() #대문자화
 ### 3-3. 정규 표현식을 사용한 정제
 정규표현식(Regular Expression)에 대한 내용은 [여기]에서 확인해주세요!
 
+
+[여기]: https://github.com/kim-ji-youn/tutorials/tree/main/RegularExpression
+
 ## 4. 문장 단위 분절
  * 단순히 마침표만을 기준으로 문장 단위 분절을 수행하는 것에는 한계가 존재합니다. 
    ex) N.Y.C.와 같은 줄임말, 3.141591, etc.
