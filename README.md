@@ -17,3 +17,9 @@ Study with hot NLP books
 
 
 [김기현의 자연어 처리 딥러닝 캠프]:https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/2.%20NLPDeepLearningCamp
+
+### 3. [전문가를 위한 파이썬] (2016)
+* **저자** 루시아누 하말류
+* **출판사** 한빛미디어
+
+[전문가를 위한 파이썬]:https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/2.%20NLPDeepLearningCamp
