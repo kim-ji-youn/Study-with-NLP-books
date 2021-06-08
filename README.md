@@ -22,4 +22,10 @@ Study with hot NLP books
 * **저자** 루시아누 하말류
 * **출판사** 한빛미디어
 
-[전문가를 위한 파이썬]:https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/2.%20NLPDeepLearningCamp
+[전문가를 위한 파이썬]:https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/3.FluentPython
+
+### 4. [처음 시작하는 파이썬] (2015)
+* **저자** 빌 루바노빅
+* **출판사** 한빛 미디어
+
+[처음 시작하는 파이썬]: https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/4.
