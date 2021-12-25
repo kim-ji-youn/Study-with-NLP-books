@@ -20,9 +20,10 @@
 
 ### 6.2. 문자 유사성에 의한 군집화
 *내가 필요했던게 이거잖아*
+
 **근접도(closeness)**: 유사성 측정 기준
 
-**1. 문자열 정합**(string matching, 문자열 일치)
+1. 문자열 정합(string matching, 문자열 일치)
     - 편집 거리(edit distance)
         - 레벤슈타인(Levenstein)
         - 스미스-워터만(Smith-Waterman)
@@ -34,7 +35,7 @@
     - 음운(phonetic)
         - 사운덱스(Soundex)
         - 변환(translation)
-**2. 거리 계량**(distance metrics)
+2. 거리 계량(distance metrics)
     - 유클리드(Euclidean)
     - 맨해튼(Matnhatten)
     - 민코프스키(Minkowski)
@@ -42,7 +43,7 @@
         - 자카드(Jaccard)
         - TF-IDF
         - 코사인 유사도(cosine similarity)   
-**3. 상대적 정합**(relation matching, 상대적 일치)
+3. 상대적 정합(relation matching, 상대적 일치)
     - 집합 기반
         - 다이스(Dice)
         - 타니모토(Tanimoto)/자카드(Jaccard)
@@ -53,7 +54,7 @@
         - 최댓값/최솟값(max/min values)
         - 중간값(mediances, 중위수)
         - 빈도(frequency) 또는 최빈값(mode)
-**4. 그 밖의 정합**(other matching)
+4. 그 밖의 정합(other matching)
     - 수치 거리(numeric distance)
     - 부울 상등(boolean equality)
     - 퍼지 정합(fuzzy matching, 퍼지 매칭)
