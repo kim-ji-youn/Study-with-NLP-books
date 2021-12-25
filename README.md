@@ -36,6 +36,6 @@ Study with hot NLP books
 * **출판사** 제이펍
 * **예제코드** https://github.com/foxbook/atap
 
-[파이썬으로 배우는 응용 텍스트 분석]: https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/5.%20AppliedTextAnalysusWithPython
+[파이썬으로 배우는 응용 텍스트 분석]: https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/5.%20AppliedTextAnalysisWithPython
 
 
