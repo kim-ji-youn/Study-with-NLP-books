@@ -7,13 +7,38 @@
 ### 3.2.1. 리스트 생성하기: [] 또는 list()
 * 콤마(,)로 구분하고, 대괄호 ([])로 둘러쌓여 있다. 
 ```
-  empty_list1 = []
-  empty_list2 = list()
-  weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+>>> empty_list1 = []
+>>> empty_list2 = list()
+>>> weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 ```
 ### 3.2.2. 다른 데이터 타입을 리스트로 변환하기: list()
+* 문자열, 튜플 등을 리스트로 변환할 수 있다. 
+* 문자열의 메소드 split()은 문자열을 리스트로 변환시켜 준다. 
+```
+>>>list('cat')
+['c', 'a', 't']
+```
 ### 3.2.3. \[index\]로 요소 얻기
+* 인덱스 번호를 통해 하나의 특정 값을 추출할 수 있다. 
+    * 0부터 시작한다. 
+    * 음수의 경우 끝에서 거꾸로 값을 추출한다. (-1부터 시작)
+* 인덱스 번호가 리스트의 범위를 벗어나는 경우 에러가 발생한다. 
+```
+>>> sur_name = ['kim', 'lee', 'park']
+>>> sur_name[0]
+'kim'
+```
 ### 3.2.4. 리스트의 리스트
+```
+>>> small_birds = ['hummingbird', 'finch']
+>>> extinct_birds = ['dodo', 'passenger pigeon', 'Norwegian Blue']
+>>> carol_birds = [3, 'French hens', 2, 'tutledoves']
+>>> all_birds = [small_birds, extinct_birds, carol_birds, 'macaw']
+>>> all_birds
+[['hummingbird', 'finch'], ['dodo', 'passenger pigeon', 'Norwegian Blue'], [3, 'French hens', 2, 'tutledoves'], 'macaw']
+>>> all_birds[0][1]
+'finch'
+```
 ### 3.2.5. \[index\]로 요소 바꾸기
 ### 3.2.6. 슬라이스로 요소 추출하기
 ### 3.2.7. 리스트의 끝에 요소 추가하기: append()
