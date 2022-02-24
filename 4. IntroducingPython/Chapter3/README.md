@@ -19,6 +19,7 @@
 ['c', 'a', 't']
 ```
 ### 3.2.3. \[index\]로 요소 얻기
+* list\[index\]
 * 인덱스 번호를 통해 하나의 특정 값을 추출할 수 있다. 
     * 0부터 시작한다. 
     * 음수의 경우 끝에서 거꾸로 값을 추출한다. (-1부터 시작)
@@ -40,6 +41,7 @@
 'finch'
 ```
 ### 3.2.5. \[index\]로 요소 바꾸기
+* list\[index\] = element1
 * 인덱스 번호로 리스트의 요소를 바꾼다.
 * 인덱스 번호가 리스트에서 유효한 위치여야 한다. 
 * 문자열은 이러한 방식으로 변경할 수 없다. 
@@ -50,8 +52,10 @@
 ['kim', 'park', 'choi']
 ```
 ### 3.2.6. 슬라이스로 요소 추출하기
+* list\[idx1: idx2: step\]
 * 슬라이스를 사용해서 리스트의 서브시퀀스를 추출
 * 스텝을 사용할 수 있음
+* 리스트 순서 뒤바꾸기는 \[::-1\]
 ```
 >>> sur_name
 ['kim', 'park', 'lee']
@@ -59,18 +63,63 @@
 ['choi', 'park', 'kim']
 ```
 ### 3.2.7. 리스트의 끝에 요소 추가하기: append()
+* list.append(element)
 ```
 >>> sur_name.append('lee')
 >>> sur_name
 ['kim', 'park', 'choi', 'lee']
 ```
 ### 3.2.8. 리스트 병합하기: extend() 또는 +=
+* list.extend(element)
+* list += element
+* .extend()와 += 는 둘 다 두 리스트를 병합하는 역할을 한다. 
+* .append()는 요소를 병합하는 것이 하니라 하나의 리스트로 추가시킨다. 
+```
+>>> sur_name = ['kim', 'park', 'choi', 'lee']
+>>> other = ['ahn', 'cho']
+>>> sur_name.extend(other)
+>>> sur_name
+['kim', 'park', 'choi', 'lee', 'ahn', 'cho']
+
+>>> sur_name = ['kim', 'park', 'choi', 'lee']
+>>> other = ['ahn', 'cho']
+>>> sur_name.append(other)
+>>> sur_name
+['kim', 'park', 'choi', 'lee', ['ahn', 'cho']]
+```
+### 3.2.9. 인덱스와 insert()로 요소 추가하기
+* list.insert(idx, element)
+* .append()는 리스트의 끝에 요소를 추가한다. 
+* .insert() 함수는 원하는 위치에 요소를 추가할 수 있다. 
+* 리스트 길이보다 더 긴 인덱스를 설정할 경우, append()와 같은 역할을 한다. 
+```
+>>> sur_name = ['kim', 'ahn', 'park', 'choi']
+>>> sur_name.insert(1, 'hong')
+>>> sur_name
+['kim', 'hong', 'ahn', 'park', 'choi']
+
+>>> sur_name.insert(10, ['oh', 'han'])
+>>> sur_name
+['kim', 'hong', 'ahn', 'park', 'choi', ['oh', 'han']]
+```
+### 3.2.10. 인덱스로 요소 삭제하기: del
+* del list\[idx\]
+* 인덱스 번호를 사용하여 특정 요소를 삭제
+* 제거된 요소 이후의 요소들이 한칸씩 앞으로 당겨짐
+* ```del```은 리스트 함수가 아니라 파이썬 구문이다. 
+* list.del()을 사용할 수 없다. 
+* 할당(=)의 반대개념
+```
+>>> del sur_name[-1]
+>>> sur_name 
+['kim', 'hong', 'ahn', 'park', 'choi']
+```
+### 3.2.11. 값으로 요소 삭제하기: remove()
+* list.remove(element)
+* 리스트에서 삭제할 항목의 위치ㅡㄹ 모르는 경우, 요소를 이용하여 삭제
 ```
 
 ```
-### 3.2.9. 인덱스와 insert()로 요소 추가하기
-### 3.2.10. 인덱스로 요소 삭제하기: del
-### 3.2.11. 값으로 요소 삭제하기: remove()
 ### 3.2.12. 인덱스로 요소를 얻은 후 삭제하기: pop()
 ### 3.2.13. 값으로 요소의 인덱스 찾기: index()
 ### 3.2.14. 존재여부 확인하기: in
@@ -81,6 +130,8 @@
 ### 3.2.19. 할당:= , 복사: copy()
 
 ## 3.3. 튜플
+* 임의적인 항복의 시퀀스
+* 리스트는 가변, 튜플은 불변 = 튜플을 정의한 이후에는 추가, 삭제, 수정을 할 수 없음
 ### 3.3.1. 튜플 생성하기: ()
 ### 3.3.2. 튜플과 리스트
 
