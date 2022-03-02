@@ -1,7 +1,7 @@
 # Introducing Python
 *back to basic!!*
 
-## 1. 파이(Py) 맛보기
+## 1. [파이(Py) 맛보기](https://github.com/kim-ji-youn/Study-with-NLP-books/tree/main/4.%20IntroducingPython/Chapter1)
 ## 2. 파이 재료: 숫자, 문자열, 변수
 ## 3. 파이 채우기: 리스트, 튜플, 딕셔너리, 셋
 ## 4. 파이 크러스트: 코드 구조
