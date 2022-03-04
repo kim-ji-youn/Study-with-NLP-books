@@ -124,6 +124,24 @@
 ['kim', 'lee']
 ```
 ### 3.2.12. 인덱스로 요소를 얻은 후 삭제하기: pop()
+* pop()은 리스트에서 항목을 가져오는 동시에 그 항목을 삭제한다.
+* pop()은 맨 마지막 요소를 반환하고 삭제한다. 
+* pop(0)은 리스트의 맨 첫 요소를 반환하고 삭제한다. 
+* pop(n)은 리스트늬 (n-1)번째 요소를 반환하고 삭제한다. 
+```
+>>> names = ['kim', 'park', 'lee', 'hong']
+>>> names.pop()
+>>> names
+['kim', 'park', 'lee']
+
+>>> names.pop(1)
+>>> names
+['kim', 'lee']
+```
+
+* LIFO(Last In First Out)-> Stack -> append() & pop()
+* FIFO(First In First Out) -> Queue -> append() & pop(0)
+
 ### 3.2.13. 값으로 요소의 인덱스 찾기: index()
 ### 3.2.14. 존재여부 확인하기: in
 ### 3.2.15. 값 세기: count()
