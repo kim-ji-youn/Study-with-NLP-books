@@ -145,10 +145,28 @@
 ### 3.2.13. 값으로 요소의 인덱스 찾기: index()
 * 항목 값의 리스트 인덱스를 알 수 있다. 
 ```
+>>> names = ['kim', 'park', 'lee', 'hong']
+>>> names.index('kim')
+0
 ```
 ### 3.2.14. 존재여부 확인하기: in
+* 리스트 내에 특정 값의 존재를 확인하기 위해 사용한다. 
+```
+>>> names = ['kim', 'park', 'lee', 'hong']
+>>> 'jee' in names
+False
+```
 ### 3.2.15. 값 세기: count()
+* 리스트 내에 특정 값이 몇 개 있는지 셀 때 사용한다. 
+```
+>>> students = ['kim', 'kim', 'lee', 'park', 'jee', 'yoon']
+>>> students.count('kim')
+2
+>>> students.count('hong')
+0
+```
 ### 3.2.16. 문자열로 변환하기: join()
+
 ### 3.2.17. 정렬하기: sort()
 ### 3.2.18. 요소의 개수 얻기: len()
 ### 3.2.19. 할당:= , 복사: copy()
