@@ -178,18 +178,67 @@ False
 ### 3.2.17. 정렬하기: sort()
 * sort() : 리스트 자체를 내부적으로 정렬
 * sorted() : 리스트의 정렬된 복사본을 반환
-
 * 리스트의 항목이 숫자인 경우, 오름차순
 * 리스트의 항목이 알파벳인 경우, 알파벳순
+```
+>>> students = ['kim', 'lee', 'park', 'jee', 'yoon']
+>>> sorted_students = sorted(students)
+>>> sorted_students
+['jee', 'kim', 'lee', 'park', 'yoon']
+>>> students
+['kim', 'lee', 'park', 'jee', 'yoon']
+>>> students.sort()
+>>> students
+['jee', 'kim', 'lee', 'park', 'yoon']
+```
 ### 3.2.18. 요소의 개수 얻기: len()
+* 리스트의 요소 개수 반환
+```
+>>> students = ['kim', 'lee', 'park', 'jee', 'yoon']
+>>> students
+5
+```
 ### 3.2.19. 할당:= , 복사: copy()
+* 한 리스트를 변수 두 곳에 할당했을 때, 한 리스트를 변경하면 다른 리스트도 따라서 변경
+```
+>>> a = [1, 2, 3]
+>>> b = a
+>>> a
+[1, 2, 3]
+>>> b
+[1, 2, 3]
+>>> a[0] = 'change'
+>>> b 
+['change', 2, 3]
+```
+
+* 리스트 복사
+   * b = a.copy()
+   * c = list(a)
+   * d = a\[:\]
+```
+>>> a = [1, 2, 3]
+>>> b = a.copy()
+>>> a[0] = 'change'
+>>> a
+['change', 2, 3]
+>>> b
+[1, 2, 3]
+```
 
 ## 3.3. 튜플
-
-
 * 임의적인 항복의 시퀀스
 * 리스트는 가변, 튜플은 불변 = 튜플을 정의한 이후에는 추가, 삭제, 수정을 할 수 없음
+
 ### 3.3.1. 튜플 생성하기: ()
+* 튜플 만드는 세가지 방법
+* 빈 튜플 만들기
+```
+>>> empty_tuple = ()
+>>> empty_tuple
+()
+```
+
 ### 3.3.2. 튜플과 리스트
 
 ## 3.4. 딕셔너리
