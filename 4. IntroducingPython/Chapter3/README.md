@@ -166,8 +166,21 @@ False
 0
 ```
 ### 3.2.16. 문자열로 변환하기: join()
-
+* join()의 인자는 문자열 혹은 반복 가능한iterable 문자열의 시퀀스
+* 결과값은 문자열
+* join()은 split()과 반대
+```
+>>> students = ['kim', 'lee', 'park', 'jee', 'yoon']
+>>> students = ','.join(students)
+>>> students
+'kim,lee,park,jee,yoon'
+```
 ### 3.2.17. 정렬하기: sort()
+* sort() : 리스트 자체를 내부적으로 정렬
+* sorted() : 리스트의 정렬된 복사본을 반환
+
+* 리스트의 항목이 숫자인 경우, 오름차순
+* 리스트의 항목이 알파벳인 경우, 알파벳순
 ### 3.2.18. 요소의 개수 얻기: len()
 ### 3.2.19. 할당:= , 복사: copy()
 
